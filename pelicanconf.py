@@ -3,10 +3,11 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Bradley A. Thornton'
-SITENAME = u'codethenetwork: cognizance'
+SITENAME = u'codethenetwork.com'
 SITEURL = ''
 
 PATH = 'content'
+THEME = 'themes/pelican-alchemy/alchemy'
 
 TIMEZONE = 'America/Los_Angeles'
 
@@ -20,20 +21,18 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
-
+LINKS = (('drawthe.net', 'http://drawthe.net/'),
+          ('#networktocode', 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwiKscj5lYPRAhUT4GMKHdAsBM4QFgghMAE&url=https%3A%2F%2Ftwitter.com%2Fjedelman8%2Fstatus%2F663808419783045120&usg=AFQjCNGWhcMLiY_-O6QZwG82IxyIMHqXoA'),
+#          ('Jinja2', 'http://jinja.pocoo.org/'),
+#          ('You can modify those links in your config file', '#'),)
+        )
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+# SOCIAL = (('You can add links in your config file', '#'),
+#           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-THEME = "/users/bthornto/github/pelican-themes/alchemy"
 OUTPUT_RETENTION = [".git"]
-
