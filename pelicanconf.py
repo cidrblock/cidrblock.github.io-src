@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Bradley A. Thornton'
-SITENAME = u'codethenetwork.com'
+SITENAME = u'network | automation'
 SITEURL = ''
 
 PATH = 'content'
@@ -21,10 +21,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('drawthe.net', 'http://drawthe.net/'),
-          ('#networktocode', 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwiKscj5lYPRAhUT4GMKHdAsBM4QFgghMAE&url=https%3A%2F%2Ftwitter.com%2Fjedelman8%2Fstatus%2F663808419783045120&usg=AFQjCNGWhcMLiY_-O6QZwG82IxyIMHqXoA'),
-#          ('Jinja2', 'http://jinja.pocoo.org/'),
-#          ('You can modify those links in your config file', '#'),)
+LINKS = (('[drawthe.net]', 'http://drawthe.net/'),
+          ('[#networktocode]', 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwiKscj5lYPRAhUT4GMKHdAsBM4QFgghMAE&url=https%3A%2F%2Ftwitter.com%2Fjedelman8%2Fstatus%2F663808419783045120&usg=AFQjCNGWhcMLiY_-O6QZwG82IxyIMHqXoA'),
+          ('[comments/issues]', 'https://github.com/cidrblock/cidrblock.github.io-src/issues'),
+          ('[netdevops resources]', 'network-automation-and-devops-resources.html')
         )
 # Social widget
 # SOCIAL = (('You can add links in your config file', '#'),

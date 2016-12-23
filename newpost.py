@@ -5,7 +5,6 @@ import datetime
 template = 'post.j2'
 
 date = datetime.datetime.utcnow().isoformat()
-filename = datetime.now().strftime("%Y%m%d-%H%M%S")
 
 details = { 'date': date }
 
